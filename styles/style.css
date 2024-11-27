@@ -34,7 +34,26 @@ iframe#screen{
     position: relative;
     top: 80px;
     left: 22px;
-    width: 269px;
-    height: 471px;
+    width: 267px;
+    height: 475px;
+}
 
+section#icons{
+    text-align: right;
+}
+
+section#icons img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px black;
+    box-sizing: border-box;
+}
+
+section#icons img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.582);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 5px black;
+    transition: transform 0.5s;
 }
